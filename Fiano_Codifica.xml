@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml_stylesheet type="text/xsl" href="Fiano_Stile.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_vocidallinferno.dtd">
+
+<TEI xml:lang="it">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt> 
+                <title>Testimonianza di Nedo Fiano</title> 
+            </titleStmt>
+            <editionStmt>
+                <edition>Progetto svolto per la tesi di Laurea Triennale in Informatica Umanistica (Università di Pisa)</edition>
+                <respStmt>
+                    <resp>Trascrizione e codifica a cura di:</resp>
+                    <persName xml:id="AM"><forename>Andrei</forename><surname>Mihaila</surname></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Progetto coordinato da:</resp>
+                    <persName xml:id="MR">
+                        <forename>Marina</forename>
+                        <surname>Riccucci</surname>
+                    </persName>
+                    <persName xml:id="AMDG">
+                        <forename type="first">Angelo</forename>
+                        <forename type="last">Mario</forename>
+                        <surname type="complex">Del Grosso</surname>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+            <extent>
+                Si tratta di una registrazione convertita in un file Mp3 con una durata complessiva di 30 minuti e 28 secondi
+            </extent>
+            <publicationStmt> 
+                <publisher>Università di Pisa</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc> 
+                <recordingStmt>
+                    <recording type="audio" dur="PT30M28S" xml:id="reg1">
+                        <date when="2006">2006</date>
+                        <respStmt>
+                            <resp>Intervista realizzata da:</resp>
+                            <persName ref="#AS">Anna Segre</persName>                           
+                        </respStmt>
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc> 
+            <projectDesc>
+                <p>La codifica della testimonianza in questione è stata realizzata per il progetto "Voci dall'Inferno"</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="2006">2006</date>
+            </creation>
+            <langUsage>
+                <language ident="it">Italiano</language>
+                <language ident="en">Inglese</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>Shoah</term>
+                    <term>Auschwitz</term>
+                </keywords>
+            </textClass>
+            <textDesc>
+                <channel mode="s">Intervista faccia a faccia</channel>
+                <constitution type="composite"/>
+                <derivation type="original"/>
+                <domain type="education">Testimonianza sulla Shoah e sulla deportazione ad Auschwitz</domain>
+                <factuality type="fact"/>
+                <interaction type="complete" active="singular" passive="group"/>
+                <preparedness type="none"/>
+                <purpose type="inform" degree="high"/>
+            </textDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="LS" n="1">
+                        <persName>
+                            <forename>Liliana</forename>
+                            <surname>Segre</surname>
+                        </persName>
+                        <birth>
+                            <date when="1930-09-10">10 settembre 1930</date>
+                            <placeName>
+                                <settlement>Milano</settlement>
+                                <country>Italia</country>
+                            </placeName>
+                        </birth>
+                        <ptr type="furtherinfo" target="https://it.wikipedia.org/wiki/Liliana_Segre"/>
+                    </person>
+                    <person xml:id="AS" n="2">
+                        <persName>
+                            <forename>Anna</forename>
+                            <surname>Segre</surname>
+                            <ptr type="furtherinfo" target="http://www.annasegre.it"/>
+                        </persName>
+                    </person>
+                    <person xml:id="NF" n="3">
+                        <persName>
+                            <forename>Nedo</forename>
+                            <surname>Fiano</surname>
+                            <ptr type="furtherinfo" target="https://it.wikipedia.org/wiki/Nedo_Fiano"/>
+                        </persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <settingDesc> 
+                <setting who="#LS #AS">
+                    <placeName>Milano</placeName>
+                    <date when="2006">2006</date>
+                    <locale>Casa della Signora Liliana Segre</locale>
+                    <activity>Intervista</activity>
+                </setting>
+            </settingDesc>
+            <abstract>  <!--regesto-->
+                <ab>
+                    <list>
+                        <item synch="#TR1">
+                            <persName ref="#NF"><forename>Nedo</forename><surname>Fiano</surname></persName> parla dell'importanza
+                            della testimonianza autentica. Specifica che non bisogna aggiugere parole che una persona non ha mai prounciato,
+                            è necessario che la confessione rimanga veritiera; non c'è bisogno, inoltre, sottolinea, di aggiungere 
+                            un'interpretazione poetica.
+                            Inoltre chiede ad <persName ref="#AS"><forename>Anna</forename><surname>Segre</surname></persName>
+                            che cosa vogliano fare con queste testimonianze. Vuole sapere il fine, a chi le faranno sentire e cosa
+                            ci faranno. Anna Segre spiega che ancora non è ben chiaro il fine/l'obiettivo e Nedo Fiano pensa che
+                            è necessario avere uno scopo per questo tipo di lavoro.
+                        </item>
+                        <item synch="#TR2">
+                            <persName ref="#NF"><forename>Nedo</forename><surname>Fiano</surname></persName> specifica che nelle scuole,
+                            tra i più giovani, la Shoah è un grande mistero. 
+                            Fortunatamente tra le persone anziane e mature qualcosa è cominciato a muoversi dentro le loro menti.
+                            <persName ref="#NF"><forename>Nedo</forename><surname>Fiano</surname></persName> ha paura che parleranno 
+                            della Shoah come delle guerre puniche, ovvero senza emozioni. Inoltre, molti hanno messo mano sulla Shoah senza sapere.
+                            Di conseguenza, il lavoro con queste testimonianze è prezioso e va sfruttato il meglio possibile.
+                        </item>        
+                        <item synch="#TR3">
+                            <persName ref="#NF"><forename>Nedo</forename><surname>Fiano</surname></persName> vuole specificare cosa è rimasto dal 
+                           punto di vista psicologico di quello che è successo. Chi l'ha sperimentato ed è uscito, ne è uscito col corpo ma non 
+                           con la psiche. Questo ricordo è tragico.
+                           Racconta di come si è sentito quando, una volta liberato, ha guardato le proprie unghie nere, schifandosi, 
+                           paragonandole a quelle di una cane. Riportare un ricordo del genere significa condizionare la propria vita e acquisire 
+                           una certa sensibilità. Inoltre, molte volte, quando andava a prendere i suoi nipotini da scuola, vedere i bambini 
+                           correre all'uscita gli ha fatto venire in mente un ricordo particolare ad <placeName ref="#AU">Auschwitz</placeName>. 
+                           Infatti, gli unici che correvano di gioia, liberi di muoversi, una volta scesi dai treni, erano i bambini.
+                        </item>        
+                        <item synch="#TR4">
+                           <persName ref="#NF"><forename>Nedo</forename><surname>Fiano</surname></persName> parla di quanto sia importante suscitare 
+                          l'interesse. Ognuno di noi, quando racconta, ci mette del suo.
+                          Infatti interviene <persName ref="#AS"><forename>Anna</forename><surname>Segre</surname></persName> dicendo che in ciascuna
+                          intervista, ciascuna persona racconta quello che ha voglia di raccontare; c'è chi ha raccontato solo il prima,
+                          chi solo il dopo. Dice che le loro interviste sono totalmente libere e aperte.
+                          <persName ref="#NF"><forename>Nedo</forename><surname>Fiano</surname></persName> espone i suoi dubbi dicendo che il problema
+                          è, come al solito, riuscire a trasmettere il messaggio.
+                          E' indubbiamente complesso da trasmettere, ma se non viene fatto come si deve, si rischia di far balbettare
+                          a tutti le medesime parole. Ognuno di noi deve dare un proprio contributo, anche se non è semplice.
+                        </item>    
+                        <item synch="#TR5">
+                            <persName ref="#NF"><forename>Nedo</forename><surname>Fiano</surname></persName> ribadisce l'importanza di riuscire a suscitare
+                            interesse e, con l'interesse, anche la partecipazione. In particolare spiega di come l'arte ha fatto ben poco riguardo ciò che è 
+                            successo e vorrebbe un maggior contributo dal momento che l'arte è capace di trasmettere una testimonianza.
+                            <persName ref="#AS"><forename>Anna</forename><surname>Segre</surname></persName> dice che il loro obiettivo è quello di
+                            trasmettere questa memoria. <persName ref="#NF"><forename>Nedo</forename><surname>Fiano</surname></persName> ribadisce che ciò è
+                            un'impresa molto difficile. Si rende conto che noi stiamo cominciando a convivere con il male, quasi come se fosse normale.
+                            <persName ref="#NF"><forename>Nedo</forename><surname>Fiano</surname></persName> vuole evitare di lasciare una testimonianza identica
+                            a tutte le altre, è arrivato il momento di mostrare più originalità. Non vuole più vedere le medesime mostre,
+                            non vuole più sentire le stesse cose. 
+                            Infine, egli si autodefinisce "antipatico", dal momento che si rende conto di aver detto delle cose che non hanno mai sentito durante
+                            il loro lavoro con le testimonianze. 
+                            Specifica che è un contributo autentico, ha espresso i propri pensieri e ha detto quello che voleva dire.
+                            <persName ref="#AS"><forename>Anna</forename><surname>Segre</surname></persName> spiega che <persName ref="#NF"><forename>Nedo</forename><surname>Fiano</surname></persName>
+                            ha argomentato in maniera differente rispetto agli altri. Si rende conto che spesso e volentieri le testimonianze sono quasi
+                            cronachiste, nelle quali ognuno racconta più o meno le stesse cose, a partire dal giorno, il treno, il campo, cos'è successo, etc.
+                        </item>    
+                        <item synch="#TR6">
+                          <persName ref="#NF"><forename>Nedo</forename><surname>Fiano</surname></persName> parla della forza degli ebrei.
+                          Essi sono riusciti a costruire una nazione, un esercito, una lingua, delle scuole. Sono sempre stati trattati in
+                          malo modo, sono sempre stati aggrediti da una parte e dall'altra, coloro che li hanno presi di mira hanno fatto 
+                          saltare in aria gli autobus e i supermercati, e gli ebrei immediatamente rispondevano mettendosi in ginocchia a pulire con l'acqua.
+                          <persName ref="#NF"><forename>Nedo</forename><surname>Fiano</surname></persName> dice che è difficile essere ebrei,
+                          e lo sarà sempre. Ovunque sono andati in <placeName ref="#EU">Europa</placeName>, a partire dall'<placeName ref="#IN">Inghilterra</placeName>, 
+                          dalla <placeName ref="#FR">Francia</placeName>, dalla <placeName ref="#GE">Germania</placeName>, sono stati cacciati.
+                          Tornare nei posti da dove sei stato cacciato, tornare nei posti dove hai vissuto esperienze terribili, richiede tanta forza.
+                          Ci vuole una determinazione straordinaria a ricostruire la propria comunità, ad aprire scuole nei luoghi dove sei stato distrutto. 
+                          Questo è un grande messaggio.
+                        </item>                        
+                    </list>
+                </ab>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <standOff>
+        <!--Timeline regesto-->
+        <timeline xml:id="TL1" source="#reg1" unit="s">
+            <when xml:id="TR1" absolute="00:00:00"/>
+            <when xml:id="TR2" absolute="00:02:18"/>
+            <when xml:id="TR3" absolute="00:07:11"/>
+            <when xml:id="TR4" absolute="00:12:15"/>
+            <when xml:id="TR5" absolute="00:19:06"/>
+            <when xml:id="TR6" absolute="00:28:23"/>
+        </timeline>
+
+        <!--Timeline sovrapposizioni tra i parlanti -->
+        
+        <timeline xml:id="TL2" source="#reg1" unit="s">
+            <when xml:id="TT01" absolute="0:00:20" synch="#nedfia-01"/>  <!--synch punta all'id dell'ancora-->
+            <when xml:id="TT02" since="#TT01" interval="1"/>
+
+            <when xml:id="TT03" absolute="0:01:00" synch="#nedfia-51"/> 
+            <when xml:id="TT04" since="#TT03" interval="1"/>
+
+            <when xml:id="TT05" absolute="0:02:13" synch="#annseg-05"/> 
+            <when xml:id="TT06" since="#TT09" interval="1"/>
+
+            <when xml:id="TT07" absolute="0:13:15" synch="#nedfia-05"/> 
+            <when xml:id="TT08" since="#TT11" interval="1"/>
+
+            <when xml:id="TT11" absolute="0:20:46" synch="#annseg-07"/> 
+            <when xml:id="TT12" since="#TT15" interval="1"/>
+
+            <when xml:id="TT13" absolute="0:21:00" synch="#nedfia-09"/> 
+            <when xml:id="TT14" since="#TT17" interval="1"/>
+
+            <when xml:id="TT17" absolute="0:25:04" synch="#nedfia-11"/> 
+            <when xml:id="TT18" since="#TT21" interval="1"/>
+        </timeline>
+
+        <!--Timeline body che indica il momento in cui avviene il cambio di interlocutore -->
+        <timeline xml:id="TL3" source="#reg1" unit="s">
+            <when xml:id="TS01" synch="#NF1" absolute="0:00:00"/>
+            <when xml:id="TS02" synch="#AS1" absolute="0:00:44"/>
+            <when xml:id="TS03" synch="#NF2" absolute="0:00:54"/>
+            <when xml:id="TS04" synch="#AS2" absolute="0:00:52"/>            
+            <when xml:id="TS05" synch="#NF3" absolute="0:00:53"/>            
+            <when xml:id="TS06" synch="#AS3" absolute="0:00:53"/>            
+            <when xml:id="TS07" synch="#NF4" absolute="0:00:54"/>            
+            <when xml:id="TS08" synch="#AS4" absolute="0:00:58"/>            
+            <when xml:id="TS09" synch="#NF5" absolute="0:01:00"/>            
+            <when xml:id="TS10" synch="#AS5" absolute="0:01:01"/>            
+            <when xml:id="TS11" synch="#NF6" absolute="0:01:08"/>            
+            <when xml:id="TS12" synch="#AS6" absolute="0:01:12"/>            
+            <when xml:id="TS13" synch="#NF7" absolute="0:01:14"/>            
+            <when xml:id="TS14" synch="#AS7" absolute="0:01:18"/>            
+            <when xml:id="TS15" synch="#NF8" absolute="0:01:19"/>            
+            <when xml:id="TS16" synch="#AS8" absolute="0:01:22"/>            
+            <when xml:id="TS17" synch="#NF9" absolute="0:01:30"/>            
+            <when xml:id="TS18" synch="#AS9" absolute="0:01:31"/>            
+            <when xml:id="TS19" synch="#NF10" absolute="0:01:40"/>
+            <when xml:id="TS20" synch="#AS10" absolute="0:02:09"/>            
+            <when xml:id="TS21" synch="#NF11" absolute="0:02:15"/>
+            <when xml:id="TS22" synch="#AS11" absolute="0:02:16"/>             
+            <when xml:id="TS23" synch="#NF12" absolute="0:02:19"/>
+            <when xml:id="TS24" synch="#AS12" absolute="0:03:00"/>  
+            <when xml:id="TS25" synch="#NF13" absolute="0:03:44"/>           
+            <when xml:id="TS26" synch="#AS13" absolute="0:04:22"/>           
+            <when xml:id="TS27" synch="#NF14" absolute="0:04:24"/>           
+            <when xml:id="TS28" synch="#AS14" absolute="0:06:47"/>           
+            <when xml:id="TS29" synch="#NF15" absolute="0:06:49"/>           
+            <when xml:id="TS30" synch="#AS15" absolute="0:13:12"/>           
+            <when xml:id="TS31" synch="#NF16" absolute="0:13:14"/>           
+            <when xml:id="TS32" synch="#AS16" absolute="0:13:15"/>           
+            <when xml:id="TS33" synch="#NF17" absolute="0:13:46"/>           
+            <when xml:id="TS34" synch="#AS17" absolute="0:20:32"/>           
+            <when xml:id="TS35" synch="#NF18" absolute="0:20:48"/>           
+            <when xml:id="TS36" synch="#AS18" absolute="0:21:00"/>           
+            <when xml:id="TS37" synch="#NF19" absolute="0:21:02"/>           
+            <when xml:id="TS38" synch="#AS19" absolute="0:24:14"/>           
+            <when xml:id="TS39" synch="#NF20" absolute="0:24:17"/>                      
+            <when xml:id="TS40" synch="#AS20" absolute="0:25:07"/>           
+            <when xml:id="TS41" synch="#NF21" absolute="0:26:09"/>           
+        </timeline>
+    </standOff>
+
+    <text>
+        <body>
+            <div decls="#reg1">
+                <u who="#NF" xml:id="NF1" synch="#TS01">
+                    Di chi la svolge? Non parlo dell'<del type="repetition">dell'</del>interlocuzione nostra <choice><sic>'nsomma</sic><corr>insomma</corr></choice>. 
+                    <unclear reason="inaudible" cert="high">Da parte</unclear> di chi si esprime è un po’ una confessione o un’apertura <pause type="short"/>. 
+                    Perché aggiungere delle parole che non sono della persona intervistata, scusi? <pause type="short"/> Perché? <anchor xml:id="nedfia-01" synch="#TT01"/> Che <anchor xml:id="nedfia-02" synch="#TT02"/>
+                    Che vuol dire <choice><sic>sta</sic><corr>questa</corr></choice> cosa così? 
+                    Non è più <del type="repetition">non è più</del> un’intervista <gap reason="inaudible"/> autenticamente all’interno di una frame, di una cornice punto e basta, poi si possono scrivere 
+                    settemila pagine su quello che uno ha detto <pause type="medium"/> ma non chiudere un’intervista con un’interpretazione più o meno 
+                    poetica di non so chi. Perché, scusi? Che cosa aggiunge? <pause type="medium"/>
+                </u>
+
+                <u who="#AS"><anchor xml:id="annseg-01" synch="#TT01"/> <vocal><desc>mmh</desc></vocal> <anchor xml:id="annseg-02" synch="#TT02"/></u>
+                
+                <u who="#AS" xml:id="AS1" synch="#TS02">
+                    Nello specifico non si voleva aggiungere, perché il problema è che <persName><forename>Mordenti</forename></persName> 
+                    mi ha chiesto <gap reason="inaudible"/> di scrivere...
+                </u>
+                <u who="#NF" xml:id="NF2" synch="#TS03">
+                    <persName><forename>Mordenti</forename></persName>?
+                </u>
+                <u who="#AS" xml:id="AS2" synch="#TS04">
+                    <persName><forename>Mordenti</forename></persName>.
+                </u>
+                <u who="#NF" xml:id="NF3" synch="#TS05">
+                    E chi è?
+                </u>
+                <u who="#AS" xml:id="AS3" synch="#TS06">
+                    Il fotografo.
+                </u>
+                <u who="#NF" xml:id="NF4" synch="#TS07">
+                    <vocal><desc>Ehh</desc></vocal>
+                </u>
+                <u who="#AS" xml:id="AS4" synch="#TS08">
+                    M’ha detto: “Accanto ad ogni persona io ci vorrei" <vocal><desc>Ehh</desc></vocal>...
+                </u>
+                <u who="#NF" xml:id="NF5" synch="#TS09">
+                    E' un fotografo, <anchor xml:id="nedfia-51" synch="#TT03"/>non<anchor xml:id="nedfia-52" synch="#TT04"/> un letterato.
+                </u>
+
+                <u who="#AS"><anchor xml:id="annseg-51" synch="#TT03"/>Esattamente<anchor xml:id="annseg-52" synch="#TT04"/></u>
+
+                <u who="#AS" xml:id="AS5" synch="#TS10">
+                    Qualcosa su ognuno, due parole su ognuno <gap reason="inaudible"/> come fai? Non le puoi fare.
+                </u>
+                <u who="#NF" xml:id="NF6" synch="#TS11">
+                    Per assurdo, <choice><sic>nsomma</sic><corr>insomma</corr></choice>, io <pause type="short"/> è una mostra fotografica? 
+                    O è stata <anchor xml:id="nedfia-59" synch="#TT05"/>una<anchor xml:id="nedfia-60" synch="#TT06"/> mostra fotografica?
+                </u>
+
+                <u who="#AS"><anchor xml:id="annseg-53" synch="#TT05"/>E' stata<anchor xml:id="annseg-54" synch="#TT06"/></u>
+
+                <u who="#AS" xml:id="AS6" synch="#TS12">
+                    E' stata una mostra fotografica.
+                </u>
+                <u who="#NF" xml:id="NF7" synch="#TS13">
+                    Allora questa mostra fotografica vi ha dato lo spunto per <pause type="short"/> raccontare una serie di interviste.
+                </u>
+                <u who="#AS" xml:id="AS7" synch="#TS14">
+                    Sì<del type="repetition">sì</del>.
+                </u>
+                <u who="#NF" xml:id="NF8" synch="#TS15">
+                    E cosa farete di tutto questo?
+                </u>
+                <u who="#AS" xml:id="AS8" synch="#TS16">
+                    Ancora non lo sappiamo. Io le ho mandato parte del materiale che è stato raccolto per farle capire più o 
+                    meno quello che <del type="repetition">quello che</del> stiamo facendo.
+                </u>
+                <u who="#NF" xml:id="NF9" synch="#TS17">
+                    Lei non sa che cosa ne farete dico.
+                </u>
+                <u who="#AS" xml:id="AS9" synch="#TS18">
+                    E' chiaro che lo vogliamo pubblicare, vogliamo creare una cornice, come dice lei, più razionale. 
+                    <vocal><desc>Ehm</desc></vocal>però<vocal><desc>ehm</desc></vocal><pause type="medium"/>
+                </u>
+                <u who="#NF" xml:id="NF10" synch="#TS19">
+                    No, perché <pause type="medium"/> guardi, io, <pause type="short"/> da quando la guerra è finita, <choice><sic>l'interviste</sic><corr>le interviste</corr></choice> 
+                    <pause type="short"/>, le conferenze <pause type="short"/>, non voglio dire un numero per fare lo spaccone, ma sono state tante. 
+                    <pause type="medium"/> Mi sembra che, se non è chiaro quello che voi volete fare <pause type="medium"/>, sia soltanto una raccolta di 
+                     <unclear reason="inaudible" cert="high"> 20 o 30 </unclear> interviste punto e basta. <pause type="medium"/> Un po’ pochino. <pause type="medium"/>
+                </u>
+                <u who="#AS" xml:id="AS10" synch="#TS20">
+                    <vocal><desc>Ehm</desc></vocal>, <pause type="medium"/> in realtà il fatto che noi abbiamo cominciato a raccogliere 
+                    queste <del type="repetition">queste</del>...
+                </u>
+                <u who="#NF" xml:id="NF11" synch="#TS21">
+                    <gap reason="inaudible"/>
+                </u>
+                <u who="#AS" xml:id="AS11" synch="#TS22">
+                    Sì, <del type="repetition">sì, sì</del>, lo sto registrando perché <pause type="short"/>..
+                </u>
+                <u who="#NF" xml:id="NF12" synch="#TS23">
+                    Guardi, io ho fatto 700 scuole, <pause type="medium"/><emph>700</emph><pause type="medium"/>. <vocal><desc>Ehm</desc></vocal><pause type="medium"/> Mi sono 
+                    accorto che <pause type="short"/> la Shoah <pause type="short"/> è arrivata oggi ad essere tutto sommato nei giovani 
+                    un grande mistero tutto da scoprire <pause type="medium"/> e nelle persone anziane o mature una cosa è già cominciata 
+                    <unclear reason="inaudible" cert="medium">a maturare</unclear>, punto <pause type="short"/>.
+                    Dico delle cose sgradevoli ma non perché io <pause type="medium"/>, non <del type="repetition">non</del> sarà 
+                    pensabile che io condivida questo, se no vuol dire che sarei preso dalla follia. Finché alla mia età accade <pause type="short"/>, 
+                    <unclear reason="inaudible" cert="medium">sono vecchio</unclear>.
+                </u>
+                <u who="#AS" xml:id="AS12" synch="#TS24">
+                    <vocal><desc>Tossisce</desc></vocal>
+                    <gap reason="inaudible"/>
+                </u>
+                <u who="#NF" xml:id="NF13" synch="#TS25">
+                    <vocal><desc>Ehm</desc></vocal>, non avrei usato le stesse parole. <pause type="medium"/> Io mi sto preoccupando che 
+                    la Shoah faccia la fine delle guerre puniche <pause type="medium"/>. Ma oggi si parla delle guerre puniche senza 
+                    nessuna emozione senza nessuna <gap reason="inaudible"/>... va bene. Shoah vuol dire sei milioni di persone, guerre puniche 
+                    non hanno prodotto numeri del genere <pause type="short"/>, però è pur vero che <pause type="short"/> in certi casi è 
+                    stato abusato questo ricordo <pause type="medium"/> e questo dimostra <pause type="short"/>... 
+                    <choice><sic>'nsomma</sic><corr>insomma</corr></choice>, avete figli voi, no?
+                </u>
+                <u who="#AS" xml:id="AS13" synch="#TS26">
+                    No. <pause type="short"/>
+                </u>
+                <u who="#NF" xml:id="NF14" synch="#TS27">
+                    Dei figli si è tremendamente gelosi, <choice><sic>'nsomma</sic><corr>insomma</corr></choice>, io lo vedo quando accarezzo un bambino, 
+                    la madre e il padre subito in allarme <pause type="medium"/>, ecco per <choice><sic>lo Shoah</sic><corr>la Shoah</corr></choice> 
+                    <del type="repetition">la Shoah, la Shoah</del> è la stessa cosa. <pause type="short"/> Hanno messo le mani in tanti sopra la Shoah 
+                    <pause type="short"/>, parlando di <persName><forename>Primo</forename><surname>Levi</surname></persName><pause type="medium"/>, quindi vediamo di fare un lavoro
+                    <pause type="short"/> possibilmente <pause type="medium"/> non troppo <gap reason="inaudible"/> non troppo <unclear reason="inaudible" cert="high">consulto</unclear>. 
+                    Perché se io vado a dire “io sono nato a, sono stato deportato con, son stato lì, là, su, giù, poi sono tornato a casa” <pause type="medium"/> mi sembra di 
+                    una banalità sconcertante, io quando sono con i ragazzi <pause type="medium"/> la prima cosa che dico <gap reason="inaudible"/> 
+                    <pause type="short"/>e voi non siete abituati a leggere la storia <pause type="medium"/> con quelli che l’hanno scritta, con quelli che 
+                    l’hanno vissuta, voi leggete capitoli <choice><sic>della vostra</sic><corr>del vostro</corr></choice> manuale di storia, le cose 
+                    entrano di qua e <gap reason="inaudible"/><incident><desc>si interrompe e poi riparte</desc></incident> per me è un po’ la stessa cosa anche con gli adulti <choice><sic>'nsomma</sic><corr>insomma</corr></choice>, 
+                    io vedo in queste, <del type="repetition">in queste</del> interviste <gap reason="inaudible"/>. Sa come quando si fanno sulla sabbia 
+                    <del type="truncation">le forme</del>, le formelle che riempi di sabbia, <del type="repetition">di sabbia</del> bagnata <gap reason="inaudible"/> 
+                    e vengono delle margherite, un’altra margherita, un’altra, e sono tutte uguali. <pause type="medium"/>
+                    Io <del type="falseStart">ne parlo</del>, parlo così perché sono innamorato di questa storia, sono sedotto, sono posseduto, sono 
+                    affranto <pause type="short"/> e mi spiace quando ne vedo fare uno scempio. <pause type="long"/>
+                    <del type="falseStart">Nella sto</del> Nel libro della memoria della <gap reason="inaudible"/>, lì è giusto scrivere “è nato lì, è morto là, è vissuto lì”,
+                    <vocal><desc>ehm</desc></vocal> vabè questi sono dati anagrafici, uno sa quando va a leggere lì, legge la storia senza nessun 
+                    commento, ma qui bisogna cerca di <emph>produrre</emph> emozioni, commozione, partecipazione se no <gap reason="inaudible"/> mi sembra 
+                    che sia così. <pause type="medium"/>
+                </u>
+                <u who="#AS" xml:id="AS14" synch="#TS28">
+                    <vocal><desc>Ehm</desc></vocal>, un obiettivo mi sembra sacrosanto, certo.
+                </u>
+                <u who="#NF" xml:id="NF15" synch="#TS29">
+                    Non è detto di arrivarci, ma l’obiettivo deve esserci <choice><sic>'nsomma</sic><corr>insomma</corr></choice> <pause type="short"/>. 
+                    Io vado a leggere la storia di <del type="repetition">di di</del> <gap reason="inaudible"/> a <placeName>Venezia</placeName>, a parte 
+                    che lui era <gap reason="inaudible"/>, io non ero <gap reason="inaudible"/>, ci sono delle affinità. <pause type="short"/> A me piace 
+                    dire che cosa è rimasto ora di quella storia, <pause type="short"/> cos’è rimasto <vocal><desc>ehm</desc></vocal> <pause type="short"/> 
+                    psicologicamente parlando, <emph>psichicamente</emph> parlando, che cosa ha fatto di noi questo ricordo <pause type="medium"/>terribile. 
+                    Parlo di chi l’ha vissuto naturalmente. <pause type="short"/> Io sono convinto che ne siamo usciti col corpo ma non certamente 
+                    con <del type="repetition">con</del> la psiche, noi siamo ancora posseduti da quel ricordo in una maniera <pause type="medium"/> direi
+                    proprio tragica. <unclear reason="inaudible" cert="high">Uno dei</unclear> momenti più impensabili di, <emph>guarda</emph>, ad 
+                    <placeName>Auschwitz</placeName>, ecco, poverina, <pause type="medium"/> la seconda <pause type="short"/> come mi comporto 
+                    nella vita, <del type="repetition">nella vita</del> mi comporto come mi sono comportato ad <placeName>Auschwitz</placeName> per 
+                    sopravvivere, sono molto combattivo, sono molto determinato <pause type="medium"/>, poi mentre se non fossi stato <gap reason="inaudibile"/> ad 
+                    <placeName>Auschwitz</placeName>, sarei una persona più comune. So essere sgradevole, ma qualche volta so essere 
+                    anche gradevole, <unclear reason="inaudible" cert="high"><choice><sic>'nsomma</sic><corr>insomma</corr></choice> nel senso</unclear>, 
+                    ma <emph>tutto</emph> il mio agire, il mio pensare è pervaso da quest’esperienza. <pause type="long"/>
+                    <vocal><desc>Tossisce</desc></vocal> Mi ricordo che <del type="repetition">che</del> <gap reason="inaudible"/>, io guardavo le unghie 
+                    e tutti non capivano perché pure io guardavo le unghie quando sono stato liberato, <kinesic><desc>Indica la corona dell'unghia</desc></kinesic> 
+                    questa corona dell’unghia era <choice><sic>nere</sic><corr>nera</corr></choice>, tutte nere <unclear reason="inaudible" cert="high">le ho guardate</unclear> 
+                    e mi sono schifato, sembravano le unghie di un <emph>cane</emph>, di un animale. <pause type="medium"/><vocal><desc>Ehm</desc></vocal> e ho consumato 
+                    centinaia di spazzolini tutte le mattine che passavo sopra le unghie come atto istintivo non <del type="repetition">non</del> razionale. <pause type="short"/>
+                    <vocal><desc>Sospira</desc></vocal> Quindi portare dentro questo ricordo vuol dire <pause type="medium"/> condizionare la propria vita, 
+                    <vocal><desc>ehm</desc></vocal>, essere sempre molto <pause type="short"/> sensibili a fare cose più significanti, 
+                    <choice><sic>'nsomma</sic><corr>insomma</corr></choice>, non solo, quel giorno sono andato a prendere i miei nipoti a scuola <pause type="medium"/> 
+                    e ho visto uscire tutti questi <del type="truncation">ragazzi</del> ragazzini <gap reason="inaudible"/>. M’è venuto in mente 
+                    la scena di <placeName>Auschwitz</placeName> quando scendevano dai treni vecchie, bambini, <gap reason="inaudible"/>. I bambini erano contenti, 
+                    finalmente potevano muoversi <vocal><desc>sospira</desc></vocal>, ma i bambini a differenza dei grandi tutti indiscriminatamente 
+                    andavano tutti a morire, appunto vedendo questi ragazzi sorridenti, si chiamavano l’un l’altro <gap reason="inaudible"/> <pause type="long"/> 
+                    <del type="falseStart">Non ci siamo</del> Non ce lo siamo tolti, siamo <del type="repetition">siamo</del> avvelenati da questo 
+                    ricordo. <pause type="long"/> Per questo sono molto geloso di come questa cosa viene presentata, <pause type="medium"/> questa è stata la mia professoressa, 
+                    è uscito ora il libro, <vocal><desc>si schiarisce la gola</desc></vocal> <persName><forename>Calabresi</forename></persName>, 
+                    professoressa di scienze che si è suicidata in carcere. <pause type="medium"/>
+                    Guardi, se c’è un’espressione più gentile, più garbata, <vocal><desc>ehm</desc></vocal>, costei una volta in carcere ha capito 
+                    come sarebbe finita la cosa, ha preso il veleno e si è uccisa. <pause type="long"/>
+                    Noi siamo ancora lì nei sogni, ma siamo ancora lì nella <del type="ripetition">nella</del> vita di ogni giorno <pause type="short"/>, sono stato <gap reason="inaudible"/>, della 
+                    comunità a fare un po’ di <gap reason="inaudible"/>, sono andato a <unclear reason="inaudible" cert="medium">Como</unclear> dal mio buon amico non caro, 
+                    buon amico, che è un imprenditore, e ho visto che quando io gli esprimevo <pause type="short"/> i bisogni della comunità, 
+                    lui era su un’altra onda, ho aperto la borsa e gli ho fatto vedere la mia casacca. Guardi che io non mi arrendo mica, non mi sono 
+                    arreso nemmeno quando ce l’avevo <choice><sic>sta</sic><corr>questa</corr></choice> casacca, io poi <unclear reason="inaudible" cert="high">voglio</unclear> 
+                    portare a casa il suo aiuto <pause type="short"/>, ha cominciato a dilatare gli occhi <vocal><desc>ride</desc></vocal>, è un po’ 
+                    vile <choice><sic>sta</sic><corr>questa</corr></choice> cosa ma io credo che bisogna un po’ richiamare l’attenzione dalla gente, 
+                    <pause type="short"/> guarda i consigli per gli acquisti <pause type="medium"/>, dai deodoranti all’aspirina, pubblicità compra 
+                    consuma <pause type="short"/>. C’è in tutti gli uomini un’<del type="repetition">un'</del>interiorità di una dimensione spaventosa <pause type="short"/>, 
+                    e usiamo i modi, le parole come se gli uomini fossero vuoti dentro; <emph>non</emph> è vero <pause type="short"/>, è che non 
+                    sappiamo suscitare il loro interesse, è per questo che dico io ho scritto un libro <gap reason="inaudible"/>, sto scrivendo un secondo,
+                    non bisogna considerare questa come una semplice operazione anagrafica, bisogna cercare di <pause type="short"/>.. è come a tavola 
+                    <choice><sic>'nsomma</sic><corr>insomma</corr></choice>, quando uno mangia un bel piatto di spaghetti <gap reason="inaudible"/>, 
+                    basta metterci un po’ di sale e poi è una cosa bellissima mangiare gli spaghetti. 
+                    Vabè io ho divagato, adesso fate voi le domande.
+                </u>
+                <u who="#AS" xml:id="AS15" synch="#TS30">
+                    <vocal><desc>Ride</desc></vocal> Queste non sono divagazioni. 
+                </u>
+                <u who="#NF" xml:id="NF16" synch="#TS31">
+                    <vocal><desc>Eh</desc></vocal>?
+                </u>  
+                <u who="#AS" xml:id="AS16" synch="#TS32">
+                    Per noi è fondamentale, nel senso che 
+                    le <incident><desc>Rumori vari a causa del microfono</desc></incident>interviste nostre non sono
+                    strutturate, una persona racconta quello che ha voglia di raccontare. C’è chi ha raccontato solo il prima perché 
+                    non ha voluto raccontare dei campi, c’è chi ha raccontato tantissimo il dopo. Ognuno ha raccontato quello che 
+                    aveva voglia di dire in quel momento. <pause type="short"/> Per cui è un’intervista completamente libera, 
+                    completamente aperta senza nessun tipo di domande. Poi noi le domande ce n’avremmo pure, però ci piace molto 
+                    lasciare alla libertà. <incident><desc>si sente un leggero colpo</desc></incident>
+                </u>
+                <u who="#NF" xml:id="NF17" synch="#TS33">
+                    Il problema è quello di trasmettere questo messaggio. <pause type="medium"/> Non c’è dubbio che abbiamo in mano 
+                    un oggetto incandescente, anche a toccarlo ci sentiamo toccare la pelle. Non c’è dubbio che è qualcosa che
+                    <gap reason="inaudible"/>, un prodotto da vendere <pause type="medium"/> di difficile descrizione <pause type="medium"/>, 
+                    però se non ci mettiamo in testa questo, <pause type="medium"/> sessant'anni dopo <pause type="short"/>, rischia di far balbettare 
+                    a tutti <del type="falseStart">le stesse</del> le solite consunte parole <unclear reason="inaudible" cert="high">benissimo</unclear>. 
+                    Siamo già in una fase di <pause type="short"/> abbastanza, per conto mio, abbastanza <del type="repetition">abbastanza</del> <pause type="short"/> 
+                    riscontrabile anche. <emph>La Shoah</emph> non è più una cosa strana. Ora prevale l'<placeName>Israele</placeName>, ora prevale la 
+                    cattiveria degli israeliani <pause type="short"/>, e poi c’è molto negazionismo in giro, <pause type="medium"/> che <pause type="short"/> 
+                    aiuta il distacco. <vocal><desc>Mhh</desc></vocal>, diciamo che <del type="falseStart">negli anni</del> fino agli anni '50 e '60, 
+                    c’era questo senso di colpa delle persone anche se non avevano partecipato individualmente. Ma insomma questi poveri ebrei 
+                    infondo <pause type="short"/> son stati trattati male no? Ma ora sa in questo momento qui il mondo è nelle mani dei <pause type="medium"/>
+                    cinquantenni, quarantenni, la cosa è lontana. <pause type="short"/> E' come nel decollo dell’aereo; all’inizio si vede ancora la 
+                    città che stiamo per lasciare, poi mano a mano che si alza, <pause type="medium"/> la città diventa più piccola fino a che non si 
+                    vede... e il ricordo è questo. Il ricordo è di per sé <del type="falseStart">è una forza</del> ha una forza distruttiva. 
+                    Sono i grandi poeti o i grandi artisti, musicisti che possono decidere la sopravvivenza, <emph>ma anche ognuno</emph> di noi nel suo piccolo
+                    <choice><sic>'nsomma</sic><corr>insomma</corr></choice>, deve dare un contributo <pause type="medium"/> il che non è facile, 
+                    <vocal><desc>ehm</desc></vocal>, non è cosa di tutti i giorni, ma non possiamo comportarci come se non ci fosse questo fenomeno, 
+                    <choice><sic>'nsomma</sic><corr>insomma</corr></choice>. Come sono scomparse delle città, dei negozi di frutta e verdura, negozietti 
+                    sotto casa, non ci son più <pause type="short"/>. Non c’è nessuno che ha più un negozio di frutta e verdura perché nel 
+                    supermercato <unclear reason="inaudible" cert="medium">te le vende</unclear>. 
+                    Tutti i fenomeni della nostra società hanno un tempo di maturazione, quando sono maturati quelli che non si sono 
+                    adeguati <pause type="medium"/>... la storiografia si è impegnata nella vicenda della Shoah con forza, <pause type="short"/> 
+                    <vocal><desc>sospira</desc></vocal>. Abbiamo una gigantesca bibliografia, direi che è molto difficile divergere dalle cose originali,
+                    per esempio <gap reason="inaudible"/> a <placeName>Venezia</placeName>, <emph>lui</emph> che potrebbe dire veramente delle cose 
+                    in più, è troppo piccolo rispetto <del type="falseStart">a quella</del>a quel gigantismo <gap reason="inaudible"/>. 
+                    Lui infondo non ne parla mai nello specifico, non vuole essere un’accusa la mia <pause type="medium"/> <emph>ma</emph> ci sono 
+                    delle cose che non si possono <emph>descrivere</emph>, <choice><sic>'nsomma</sic><corr>insomma</corr></choice>, <gap reason="inaudible"/>, ho 
+                    visto <pause type="short"/> che cos’è, dov’è che ho letto... <pause type="medium"/> di uno che era addetto al reperimento dei 
+                    gioelli che erano stati nascosti, <choice><sic>'nsomma</sic><corr>insomma</corr></choice>, lui prendeva questi cadaveri infilava 
+                    a spade e <emph>squarciava</emph> come si squarta un pollo per vedere se avevano nascosto gioielli e roba del genere, con un 
+                    verismo con un <pause type="short"/>... sconcertante, <unclear reason="inaudible" cert="medium">proprio da</unclear>...<pause type="medium"/>
+                    Per esempio un altro famoso, <unclear reason="inaudible" cert="low">l’Alba</unclear>, che io ho conosciuto molto bene, <pause type="medium"/> 
+                    è un ebreo austriaco che è morto <gap reason="inaudible"/> <vocal><desc>Anna tossisce</desc></vocal>, uomini ad <placeName>Auschwitz</placeName>. 
+                    Questo <del type="repetition">questo</del> è un libro che è veramente.. c’ha un verismo, c’ha una realtà che ecco, 
+                    questo bisogna <gap reason="inaudible"/>, descritto <del type="falseStart">la<del type="repetition">la la</del></del> l’effetto del gas, 
+                    in cinque minuti, che cosa succedeva nei cinque minuti del gas <gap reason="inaudible"/>, cinque minuti, come cinque mesi, come cinque 
+                    anni, come cinque vite. 
+                    Le lotte <pause type="medium"/> e insomma <pause type="short"/>, bisogna riuscire a trasmettere qualcosa che 
+                    susciti interesse e con l’interesse anche la partecipazione. Non ci può essere partecipazione se non siamo capaci 
+                    di suscitare questo interesse. <pause type="medium"/> Insomma <pause type="medium"/>, scrivere <pause type="short"/> un po’ come far 
+                    musica, come far pittura. In tante maniere si fa la pittura. <pause type="short"/> 
+                    I miei nipoti fanno dei quadretti strani senza prospettiva, <vocal><desc>ehm</desc></vocal>, alla loro maniera 
+                    questa è la pittura. Se la metti accanto a <persName>Leonardo</persName><pause type="short"/> , cosa che tutt’ora che 
+                    mi lascia sempre pieno di stupore, la grandiosità della pittura <pause type="short"/> , "Mona lisa", <pause type="short"/>
+                    ma anche l'"Ultima Cena". <vocal><desc>Ehm</desc></vocal>, <gap reason="inaudible"/> io, questa storia, <del type="falseStart">deve più entrare</del> 
+                    deve essere più posseduta dall’arte. <emph>L’arte</emph> è capace di trasmettere una testimonianza <pause type="medium"/>, l’arte 
+                    ha fatto poco, al di là dell’immagine dei fili spinati. Ma io non vedo opere <pause type="medium"/> e la musica <pause type="medium"/>, 
+                    quelli sono capaci di trasmettere qualcosa che va al di là del <del type="repetition">del</del> presente.
+                </u> 
+                <u who="#AS" xml:id="AS17" synch="#TS34">
+                    Chi non <del type="repetition">chi non</del> è un’artista, chi è una persona come noi che vuole raccogliere i vostri 
+                    ricordi per trasmetterli alla generazione futura, come fa? <vocal><desc>Ceh</desc></vocal>, come facciamo noi a 
+                    conservare i vostri ricordi e a trasmetterli <anchor xml:id="annseg-07" synch="#TT11"/>affinché non siano come le guerre puniche?<anchor xml:id="annseg-08" synch="#TT12"/>
+                </u>
+
+                <u who="#NF"><anchor xml:id="nedfia-53" synch="#TT11"/>Come si fa a spiegare la divina commedia <unclear reason="inaudible" cert="low">un’altra volta</unclear>. <anchor xml:id="nedfia-54" synch="#TT12"/></u>
+
+                <u who="#NF" xml:id="NF18" synch="#TS35">
+                    Voglio dire, siamo in presenza di una montagna che è alta 5000 metri, dice "come facciamo noi"
+                    <vocal><desc>ride</desc></vocal>, se non ce la fai non ci vai. Voi ci mettete tutta la <anchor xml:id="nedfia-09" synch="#TT13"/>buona...<anchor xml:id="nedfia-10" synch="#TT14"/>
+                </u> 
+
+                <u who="#AS"><anchor xml:id="annseg-63" synch="#TT13"/>Vogliamo trasmettere<anchor xml:id="annseg-64" synch="#TT14"/></u>
+
+                <u who="#AS" xml:id="AS18" synch="#TS36">
+                    Vogliamo trasmettere questa memoria perché <gap reason="inaudible"/>...
+                </u>
+
+                <u who="#NF" xml:id="NF19" synch="#TS37">
+                    Ho capito che volete trasmettere. L’ho capito perfettamente, <gap reason="inaudible"/> no dico, non ci prendiamo in 
+                    giro, ho capito perfettamente, ma dico che <emph>oggi è un’impresa molto <del type="repetition">molto</del> 
+                    difficile</emph>. Fare una mostra, esporre cinquanta, sessanta fotografie, <pause type="short"/> non sai quante ne hanno 
+                    viste. Io una volta mi sono voluto divertire, stare da una parte, sentire, ascoltare i commenti <pause type="medium"/> 
+                    e gli unici che possono essere probabilmente confortati sono i ragazzi che sono messi di fronte alla realtà per la prima
+                    volta <unclear reason="inaudible" cert="medium">ma gli altri</unclear><pause type="short"/>... è come se ci dicono alla 
+                    televisione “sono morti a <del type="truncation">Bag</del> Baghdad centocinquanta persone e ottanta feriti”.
+                    Uno continua a mangiare i suoi spaghetti come se nulla fosse, questo è tutto. Noi ci stiamo abituando a convivere <pause type="medium"/> 
+                    col male. La Shoah è un male <pause type="medium"/>, poi ecco a <del type="repetition">a</del> convivere col presente, il passato <pause type="medium"/>.
+                    So di avervi detto delle cose che vi lasceranno un po’ dubbiose, perplesse, <del type="falseStart">l’ultim</del> l’unica cosa che 
+                    dovete togliervi dalla testa è che io non apprezzi il vostro lavoro, che non capisca il valore della testimonianza. Assolutamente, 
+                    voglio soltanto dire che a <emph>dispetto</emph> del vostro impegno questa cosa qui, <choice><sic>'nsomma</sic><corr>insomma</corr></choice>, <pause type="medium"/> 
+                    la vedo <pause type="medium"/> impari. 
+                    Io <pause type="short"/> sarò antipatico, me lo so riconoscere, ma io voglio anche fare un po’ il provocatore, cercate di fare di 
+                    questo lavoro qualcosa di <pause type="short"/>... per esempio avere una pagina introduttiva, la prima pagina che si apre e diventa 
+                    quattro volte più grande e fa vedere qualcosa di sconvolgente, <pause type="short"/> come l’apertura delle camere a gas <pause type="medium"/>, 
+                    dove ci sono tutti quei corpi come delle scatolette di <gap reason="inaudible"/> simmental, <choice><sic>'nsomma</sic><corr>insomma</corr></choice>, 
+                    bisogna avere il coraggio di dire “sì è una cosa molto...” <pause type="short"/>, come dire “mi spieghi perché lei vuol bene alla 
+                    mamma” <vocal><desc>ceh</desc></vocal>, è capace lei di spiegarlo? No, perché lei lo porta dentro il sangue questo amore <pause type="short"/>, 
+                    <vocal><desc>si schiarisce la gola</desc></vocal> il sorriso della mamma. <pause type="short"/>
+                    Io proprio parlo per quello perché mamma <pause type="medium"/>, come tutte le mamme <choice><sic>'nsomma</sic><corr>insomma</corr></choice>, 
+                    sopravvive nel ricordo <pause type="long"/> pervicacemente da una vita, da sessant'anni. Io vi auguro un buon lavoro e vi prego di 
+                    prendere questo come un contributo, forse inadeguato, forse <pause type="short"/> non condiviso, ma, voglio dire, l’intenzione è 
+                    buona <choice><sic>'nsomma</sic><corr>insomma</corr></choice> è chiaro. <pause type="short"/> Non la vedo convinta lei.
+                </u> 
+
+                <u who="#AS" xml:id="AS19" synch="#TS38">
+                    No no assolutamente, io rifletto sempre.
+                </u>
+
+                <u who="#NF" xml:id="NF20" synch="#TS39">
+                   Guardi, quando qualcuno le dice autenticamente il proprio pensiero è sempre un aiuto, <del type="repetition">è sempre un aiuto</del>. 
+                   Io <vocal><desc>ride</desc></vocal><unclear reason="inaudible" cert="high">vicino a</unclear> <persName><forename>Chruchill</forename></persName> 
+                   molte volte mi sono mangiato la parola <pause type="medium"/>, <vocal><desc>beh</desc></vocal> è una dieta eccellente <pause type="short"/>. 
+                   Qualche volta ci <del type="repetition">ci</del> troviamo coinvolti in un discorso che abbiamo iniziato, dobbiamo portarlo fino in fondo, 
+                   poi magari...<pause type="medium"/> va bene, <foreign xml:lang="en">up to you</foreign>. Lei <del type="repetition">lei</del>, non lo so, io sono qui 
+                   ad ascoltarvi, fino ora siete voi ad avere ascoltato me. 
+                   <anchor xml:id="nedfia-11" synch="#TT17"/> Cercate di fare <gap reason="inaudible"/> <anchor xml:id="nedfia-12" synch="#TT18"/> ...
+                   <vocal><desc>eh</desc></vocal>?
+                </u> 
+
+                <u who="#AS"><anchor xml:id="annseg-59" synch="#TT17"/><gap reason="inaudible"/><anchor xml:id="annseg-60" synch="#TT18"/></u>
+
+                <u who="#AS" xml:id="AS20" synch="#TS40">
+                    No dico, lei ha fatto una cosa nuova rispetto, diciamo, agli altri che abbiamo ascoltato. C'ha detto 
+                    cosa rimane, <del type="repetition">cosa rimane</del> a me oggi <vocal><desc>ehm</desc></vocal> emotivamente di questa <del type="repetition">di questa</del> 
+                    esperienza <gap reason="inaudible"/>,<choice><sic>'nsomma</sic><corr>insomma</corr></choice>. Cosa rimane a me che 
+                    non è, <vocal><desc>mhh</desc></vocal>, <pause type="short"/> il fatto in sé che viene da tutti raccontato in maniera 
+                    quasi cronachista, no? <vocal><desc>Ceh</desc></vocal>, che il giorno, il treno... tutti dicono se devono <pause type="short"/> ...
+                    la struttura, no? Dell’intervista in genere è appunto che ti è successo no? Su questa cosa che ti è successo <pause type="short"/> 
+                    quello che noi notavamo e quello per cui noi ci siamo messi in tre a fare <choice><sic>sta</sic><corr>questa</corr></choice> roba 
+                    è perché <vocal><desc>ehm</desc></vocal> quello che ti è successo, poi non dice quello che diceva lei. Cioè sì, d’accordo, il fatto di <del type="repetition">di</del> 
+                    aver fatto questo <del type="repetition">questo</del> percorso, lo abbiamo fatto tutti quanti ma poi a me cosa m’è rimasto, no? 
+                    <del type="falseStart">Ognuno ha un'emozione</del><vocal><desc>Ceh,</desc></vocal> ognuno ha un punto di vista suo.
+                </u>
+
+                <u who="#NF" xml:id="NF21" synch="#TS41">
+                   <vocal><desc>Ceh</desc></vocal>, nell’intervista non si pensa al dopo. L’intervistato dice "io sono sta qua, ho fatto 
+                   là, ho perso la mamma, il papà, il fratello, mio nonno, dieci persone persone". <pause type="long"/> Chi legge, <pause type="short"/> 
+                   <vocal><desc>ehm</desc></vocal>, condivide... guardi do un esempio <emph>gigantesco</emph>. <del type="falseStart">Auschw</del> 
+                   <vocal><desc>Ehm</desc></vocal>, <placeName>Israele</placeName> è un prodotto di <placeName>Auscwhitz</placeName>?<pause type="short"/> 
+                   Nel comportamento degli israeliani, <pause type="short"/> di fronte ai lutti, quanti ce ne sono stati anche nell’ultimo, c’è una forza
+                   che proviene <pause type="medium"/> dalle <emph>determinazioni</emph> di sopravvivere. Questo è il messaggio che viene dato <pause type="short"/> e 
+                   <pause type="medium"/>,<vocal><desc>ehm</desc></vocal> come noi con i defunti, io non approvo, ma, <choice><sic>'nsomma</sic><corr>insomma</corr></choice>, 
+                   dopo che c’è la cerimonia funebre si mangia dei pasticcini, eccetera, non sarei capace nemmeno di avvicinarmi. Comunque
+                   perché la vita, è quello il comandamento. La vita, devi vivere. Se noi pensiamo in questo 
+                   piccolo paese <vocal><desc>ride</desc></vocal>, meno della <placeName>Lombardia</placeName>, circondato dai nemici da 
+                   tutte le parti e che vuole ostinatamente vivere <pause type="short"/>, questo ricorda a me almeno <emph>simbolicamente</emph> 
+                   <placeName>Auschwitz</placeName>, e uno che è dentro <gap reason="inaudible"/>, che vuole sopravvivere malgrado tutto. 
+                   Ma cosa vuoi sopravvivere che te se non oggi, domani ti bruceranno. <emph>No!</emph> Voglio vivere, io <emph>non</emph> voglio morire. 
+                   Non lo <emph>accetto</emph>. Questo paese che contro <pause type="short"/> ogni <unclear reason="inaudible" cert="medium">calco</unclear> politico, 
+                   militare, economico, sopravvive, che si trasforma un paese agricolo in un paese di tecnologia avanzata, <gap reason="inaudible"/> son tanti 
+                   auschwitziani, questo mi piace. Io lo dico ai ragazzi <pause type="medium"/>, pensare che questo paese è nato da un delitto <emph>immane</emph> 
+                   di sei milioni di persone <pause type="short"/>. Sono andati lì con le unghie e hanno costruito una nazione, un esercito, una lingua, 
+                   le scuole, una struttura <vocal><desc>ride</desc></vocal> e sempre <del type="repetition">sempre</del> aggrediti da una parte o 
+                   dall’altra da un che siano aerei o che siano pezzi d’artiglieria, missili, spie. Hanno fatto saltare <pause type="short"/> gli autobus, 
+                   supermercati e loro subito <unclear reason="inaudible" cert="high">in ginocchio</unclear> a <del type="repetition">a</del> pulire con <del type="repetition">con</del> 
+                   l’acqua perché non ci resti traccia di questa <pause type="short"/>... questo è una grande <unclear reason="inaudible" cert="high">eredità</unclear> 
+                   <emph>che</emph> poi ha <choice><sic>l'effetti</sic><corr>gli effetti</corr></choice> pratici straordinari, <emph>ma</emph> che non è percepito da 
+                   loro stessi <vocal><desc>ehm</desc></vocal> hanno questa <emph>spinta</emph> che viene dai loro genitori, la cui parte sopravvissuti 
+                   li hanno insegnato <del type="falseStart">questa</del>questo comportamento da sopravvivenza.
+                   Io trovo in questo <pause type="short"/>... quando si <unclear reason="inaudible" cert="high">vede</unclear><gap reason="inaudible"/> 
+                   <vocal><desc>fa strani versi</desc></vocal><gap reason="inaudible"/> tutti composti. Vanno e <pause type="medium"/>
+                   <vocal><desc>eh</desc></vocal>beh, è difficile essere ebrei e lo sarà sempre. La <gap reason="inaudible"/> da 2400 anni. Noi non 
+                   abbiamo avuto così tante persecuzioni, <emph>ovunque</emph> siamo stati cacciati e poi siamo ritornati da tutti i paesi 
+                   d’<placeName>Europa</placeName>: dall’<placeName>Inghilterra</placeName>, dalla <placeName>Francia</placeName>, dalla 
+                   <placeName>Germania</placeName>. Ho visto a <placeName>Berlino</placeName> la <pause type="short"/>, la nuova sinagoga <pause type="short"/>...
+                   son ritornati e ci vuole forza. <emph>Ci vuole</emph> una determinazione straordinaria, ci vuole uno spirito auschwitziano a 
+                   ritornare in <placeName>Germania</placeName>, a ricostruire la loro comunità, ad aprire le scuole, <del type="falseStart">questa è una cosa</del>
+                   <emph>questo</emph> è un grande messaggio. Ma è un popolo che <del type="falseStart">non è stato</del>, è stato <emph>ferito</emph>, non...
+                </u> 
+            </div>
+        </body>
+    </text>
+</TEI>
